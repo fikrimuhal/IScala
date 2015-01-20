@@ -1,6 +1,7 @@
 # IScala
 
 **IScala** is a [Scala-language](http://scala-lang.org) backend for [IPython](http://ipython.org).
+*With OSX fix*
 
 [![Build Status][travis]](https://travis-ci.org/mattpap/IScala)
 
@@ -11,7 +12,7 @@
 
 ## Usage
 
-First obtain a copy of IScala from [here](https://github.com/mattpap/IScala/releases). The
+First obtain a copy of IScala from [here](https://github.com/fikrimuhal/IScala/releases). The
 package comes with pre-compiled `IScala.jar` and collection of scripts for running IPython's
 console, qtconsole and notebook. `IScala.jar` contains all project dependencies and resources,
 so you can move IScala easily around. To start IPython's console, simply issue `bin/console`
@@ -247,8 +248,8 @@ and run `%update` again.
 
 ## Development
 
-Obtain a copy of IScala either by cloning [this](git@github.com:mattpap/IScala.git)
-repository or download it from [here](https://github.com/mattpap/IScala/archive/master.zip).
+Obtain a copy of IScala either by cloning [this](git@github.com:fikrimuhal/IScala.git)
+repository or download it from [here](https://github.com/fikrimuhal/IScala/archive/master.zip).
 We use [SBT](http://www.scala-sbt.org/) for dependency management, compilation and deployment.
 In a terminal issue:
 ```
